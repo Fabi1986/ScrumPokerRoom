@@ -10,7 +10,12 @@ export default class App extends Component {
     }
 
     render () {
-        return <p><Homepage title="Scrum Poker"/><Footer/></p>
+        return (
+        <div>
+            <Homepage title="Scrum Poker"/>
+            <Footer />
+        </div>
+        );
     }
 }
 
